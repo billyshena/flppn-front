@@ -3,8 +3,9 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 @import "colors";
 @import "fonts";
 @import "animations/animated";
-@import "landing";
-
+@import "modules/landing";
+@import "modules/login";
+@import "modules/home";
 
 // Using box-sizing by default
 *{
@@ -33,6 +34,7 @@ body, html{
 
 body{
   font-size:1.4rem;
+  color:$text-white;
 }
 
 #app{
@@ -42,18 +44,32 @@ body{
 
 /* Override Bootstrap UI elements */
 a{
-  &:hover{
+  &:hover, &:focus{
     text-decoration: none;
     color:$text-white;
   }
   color:$text-white;
 }
+p{
+  margin-bottom:0;
+}
+.btn:focus, .btn.focus, .btn:active:focus, .btn:active.focus, .btn.active:focus, .btn.active.focus{
+  outline:0;
+}
+a:focus{
+  outline:0;
+}
+.form-control:focus{
+  border:1px solid $text-white;
+  box-shadow:none;
+}
+.form-control{
+  box-shadow:none;
+}
 .btn{
-  &:hover{
-    color:$text-white;
-  }
-  &:focus{
+  &:hover, &:focus, &:active{
     outline:0;
+    color:$text-white;
   }
   padding:8px 38px;
   border-radius:40px;
@@ -66,3 +82,8 @@ a{
   border:1px solid $button-border-color;
 }
 
+
+.input-group .form-control:first-child{
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}

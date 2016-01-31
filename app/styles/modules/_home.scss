@@ -1,0 +1,77 @@
+$header-element-height:100%;
+#home{
+  height:100%;
+  width:100%;
+
+  header.home-header{
+    height:74px;
+    background:white;
+    border-bottom: 2px solid #E6E6E6;
+    padding:0px 40px;
+
+    .home-header-container{
+      height:100%;
+      padding:16px 0px;
+    }
+
+    .user-profile{
+      height:$header-element-height;
+      /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,fcfcfc+100 */
+      background: #ffffff; /* Old browsers */
+      background: -moz-linear-gradient(top,  #ffffff 0%, #fcfcfc 100%); /* FF3.6-15 */
+      background: -webkit-linear-gradient(top,  #ffffff 0%,#fcfcfc 100%); /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(to bottom,  #ffffff 0%,#fcfcfc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#fcfcfc',GradientType=0 ); /* IE6-9 */
+      border-radius:5px;
+      border:1px solid #ededed;
+      position:relative;
+
+    }
+    .search-container{
+      height:100%;
+      margin:0 auto;
+      width: 50%;
+      position:relative;
+
+      .search-bar{
+        height:$header-element-height;
+        position: absolute;
+        top: 50%; left: 50%;
+        transform: translate(-50%,-50%);
+        width:100%;
+
+        .form-control{
+          height:40px;
+          border-top-left-radius:3px;
+          border-bottom-left-radius:3px;
+          border-color:#ededed;
+          background:#fbfbfb;
+          color:#aaaab1;
+        }
+        .input-group-addon{
+          background:white;
+          padding:6px 30px;
+          border-color:#ededed;
+        }
+      }
+    }
+
+    .home-logo{
+      display:inline-block;
+      height:100%;
+      vertical-align: middle;
+
+      img{
+        vertical-align: middle;
+        height:100%;
+      }
+    }
+  }
+
+  #home-videos{
+    height:100%;
+    width:100%;
+    background:#FBFBFB;
+  }
+
+}

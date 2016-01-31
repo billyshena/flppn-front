@@ -27,6 +27,16 @@ angular
         url: '/',
         controller: "LandingCtrl",
         templateUrl: "/views/landing.html"
+      })
+      .state('login', {
+        url: '/login',
+        controller: "LoginCtrl",
+        templateUrl: "/views/login.html"
+      })
+      .state('home', {
+        url: '/home',
+        controller: "HomeCtrl",
+        templateUrl: "/views/home.html"
       });
 
   });
