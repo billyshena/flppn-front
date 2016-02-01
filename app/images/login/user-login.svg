@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.1 (9971) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-person</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Maquettes" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Landing-page---Sign-in-incorrect" sketch:type="MSArtboardGroup" transform="translate(-624.000000, -361.000000)" stroke="#FFFFFF">
+            <g id="Content" sketch:type="MSLayerGroup" transform="translate(583.000000, 243.000000)">
+                <g id="Username" transform="translate(31.000000, 105.000000)" sketch:type="MSShapeGroup">
+                    <path d="M17,20 C16.1666625,20 15.4583363,19.7083363 14.875,19.125 C14.2916637,18.5416637 14,17.8333375 14,17 C14,16.1666625 14.2916637,15.4583363 14.875,14.875 C15.4583363,14.2916637 16.1666625,14 17,14 C17.8333375,14 18.5416637,14.2916637 19.125,14.875 C19.7083363,15.4583363 20,16.1666625 20,17 C20,17.8333375 19.7083363,18.5416637 19.125,19.125 C18.5416637,19.7083363 17.8333375,20 17,20 L17,20 Z M17,21.5 C18.2500062,21.5 19.5624931,21.7760389 20.9375,22.328125 C22.3125069,22.8802111 23,23.6041622 23,24.5 L23,26 L11,26 L11,24.5 C11,23.6041622 11.6874931,22.8802111 13.0625,22.328125 C14.4375069,21.7760389 15.7499938,21.5 17,21.5 L17,21.5 Z" id="icon-person"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
