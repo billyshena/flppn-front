@@ -1,0 +1,21 @@
+{
+  "landing": {
+    "login": "Connexion",
+    "noaccount": "Vous n'avez pas de compte Flppn ?"
+  },
+
+  "login": {
+    "welcome": "Welcome on Flppn,",
+    "info": "Please enter your login and enjoy your session.",
+    "username": "Type your username",
+    "password": "Type your password",
+    "account": "Accéder à mon compte"
+  },
+
+  "home": {
+    "search": "Search"
+  }
+
+
+
+}

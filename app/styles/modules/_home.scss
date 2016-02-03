@@ -8,7 +8,6 @@ $header-element-height:100%;
     background:white;
     border-bottom: 2px solid #E6E6E6;
     padding:0px 40px;
-    position:fixed;
     width:100%;
 
     .home-header-container{
@@ -16,6 +15,9 @@ $header-element-height:100%;
       padding:16px 0px;
     }
 
+    section.home-container{
+      position:relative;
+    }
     .user-profile{
       height:$header-element-height;
       /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,fcfcfc+100 */
@@ -27,6 +29,16 @@ $header-element-height:100%;
       border-radius:5px;
       border:1px solid #ededed;
       position:relative;
+
+      a{
+        display:block;
+        padding:8px 25px;
+
+        span{
+          color:#AAAAB1;
+          margin-left:15px;
+        }
+      }
 
     }
     .search-container{

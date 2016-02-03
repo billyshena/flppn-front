@@ -1,11 +1,15 @@
 <div id="landing-main">
   <div class="landing-bg">
     <div class="landing-main-container">
-      <a href="javascript:;" class="pull-right btn-register f300">Vous n'avez pas de compte Flppn?</a>
+      <a href="javascript:;" class="pull-right btn-register f300">
+        {{ 'landing.noaccount' | translate }}
+      </a>
       <div class="landing-login-box text-center">
         <img src="../images/landing-logo.svg" alt="Flppn logo" title="Flppn logo"/>
         <br/>
-        <button class="btn btn-unfilled f400" data-ui-sref="login">Connexion</button>
+        <button class="btn btn-unfilled f400" data-ui-sref="login">
+          {{ 'landing.login' | translate }}
+        </button>
       </div>
     </div>
   </div>

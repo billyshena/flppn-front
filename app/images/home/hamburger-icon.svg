@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="21px" height="12px" viewBox="0 0 21 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.5.1 (25234) - http://www.bohemiancoding.com/sketch -->
+    <title>Burger menu</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetInner1" result="shadowBlurInner1"></feGaussianBlur>
+            <feComposite in="shadowBlurInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0589872056 0" in="shadowInnerInner1" type="matrix" result="shadowMatrixInner1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+                <feMergeNode in="shadowMatrixInner1"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Day-Mode" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Artboard-10" sketch:type="MSArtboardGroup" transform="translate(-1025.000000, -30.000000)" filter="url(#filter-1)" fill="#AAAAB1">
+            <g id="Header" sketch:type="MSLayerGroup">
+                <g id="Search" transform="translate(366.000000, 16.000000)" sketch:type="MSShapeGroup">
+                    <g id="Categories-button" transform="translate(15.000000, 0.000000)">
+                        <path d="M644,14 L664.571429,14 L664.571429,16.1176471 L644,16.1176471 L644,14 Z M644,18.9411765 L664.57,18.9411765 L664.57,21.0588235 L644,21.0588235 L644,18.9411765 Z M644,23.8823529 L664.57,23.8823529 L664.57,26 L644,26 L644,23.8823529 Z" id="Burger-menu"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

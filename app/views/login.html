@@ -1,7 +1,9 @@
 <div id="login-main">
   <div class="login-bg">
     <div class="login-main-container">
-      <a href="javascript:;" class="pull-right btn-register f300">Vous n'avez pas de compte Flppn?</a>
+      <a href="javascript:;" class="pull-right btn-register f300">
+        {{ 'landing.noaccount' | translate }}
+      </a>
 
       <!-- Login header -->
       <div class="login-header">
@@ -13,25 +15,29 @@
 
       <!-- Login container form -->
       <div class="login-box text-center">
-        <p class="f600 fs14">Welcome on Flppn,</p>
-        <p class="fs12">Please enter you login and enjoy your session.</p>
+        <p class="f600 fs14">
+          {{ 'login.welcome' | translate }}
+        </p>
+        <p class="fs12">{{ 'login.info' | translate }}</p>
 
         <div class="login-form">
-          <form action="">
+          <form action="" data-ng-submit="$event.preventDefault();login()">
             <div class="input-main">
               <div class="input-group">
                 <img src="images/login/user-login.svg" alt="User icon" width="12px" height="12px"/>
-                <input type="text" class="form-control fs12" placeholder="Type your username"/>
+                <input type="text" class="form-control fs12" placeholder="{{ 'login.username' | translate }}"/>
               </div>
               <div class="input-group">
                 <img src="images/login/user-password.svg" alt="User icon" width="11.3px" height="14.8px"/>
-                <input type="text" class="form-control fs12" placeholder="Type your password"/>
+                <input type="text" class="form-control fs12" placeholder="{{ 'login.password' | translate }}"/>
               </div>
             </div>
 
-            <a href="javascript:;"
-               data-ng-click="login()"
-               class="btn-unfilled btn-login fs13">Accéder à mon compte</a>
+            <button
+               type="submit"
+               class="btn-unfilled btn-login fs13">
+              {{ 'login.account' | translate }}
+            </button>
           </form>
 
         </div>
