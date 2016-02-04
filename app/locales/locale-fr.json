@@ -1,7 +1,7 @@
 {
   "landing": {
     "login": "Connexion",
-    "noaccount": "Vous n'avez pas de compte Flppn ?"
+    "noAccount": "Vous n'avez pas de compte Flppn ?"
   },
 
   "login": {
@@ -13,7 +13,10 @@
   },
 
   "home": {
-    "search": "Search"
+    "search": "Search",
+    "recent": "Recent",
+    "mostRated": "Most rated",
+    "trend": "Trend"
   }
 
 

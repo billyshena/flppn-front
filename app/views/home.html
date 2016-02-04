@@ -13,7 +13,9 @@
 
       <!--  Logo -->
       <div class="home-logo pull-left">
-        <img src="images/flppn-logo-black.svg" alt="" width="95px" height="14px"/>
+        <a href="javascript:;" title="Flppn logo">
+          <img src="images/flppn-logo-black.svg" alt="Flppn logo" width="95px" height="14px"/>
+        </a>
       </div>
 
       <!-- Search bar -->
@@ -22,36 +24,63 @@
           <div class="input-group">
             <input type="text" class="form-control f600" placeholder="{{ 'home.search' | translate }}" aria-describedby="basic-addon2">
             <span class="input-group-addon" id="basic-addon2">
-              <img src="images/home/hamburger-icon.svg" alt=""/>
+              <a href="javascript:;">
+                <img src="images/home/hamburger-icon.svg" alt=""/>
+              </a>
             </span>
           </div>
         </div>
       </div>
-
-
     </div>
-
-
 
   </header>
 
-  <div class="sub-header">
-    <nav>
-      <ul>
-        <li>
-          <a href="javascript:;">
 
-          </a>
-        </li>
-      </ul>
-    </nav>
-
-  </div>
 
   <section class="home-container">
 
     <!-- Section videos -->
     <section id="home-videos">
+
+      <div class="home-videos-container">
+        <div class="video-card pull-left" data-ng-repeat="i in [1,2,3,4,5,6,7,8,9]">
+
+          <div class="video-header">
+            <a href="javascript:;">
+              <img src="images/home/card-image.jpg" alt=""/>
+            </a>
+
+            <div class="video-info">
+              <span class="m-r">
+                <span class="ion-android-time fs12"></span>
+                <span class="fs12">03:55</span>
+              </span>
+
+              <span class="m-l">
+                <span class="ion-android-star-outline fs12"></span>
+                <span class="fs12">4.5</span>
+              </span>
+            </div>
+
+            <div class="video-source">
+              <p class="text-uppercase">sources</p>
+            </div>
+
+            <div class="video-actions">
+              <a href="javascript:;">
+                <img src="images/home/add-icon.svg" alt="Add icon" height="14px" width="14px"/>
+              </a>
+            </div>
+
+          </div>
+
+          <div class="video-body">
+            <p class="f600">Video's title</p>
+          </div>
+
+        </div>
+        <div class="clearfix"></div>
+      </div>
 
     </section>
 

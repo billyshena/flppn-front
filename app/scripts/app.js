@@ -27,6 +27,8 @@ angular
       suffix: '.json'
     });
 
+    $translateProvider.useSanitizeValueStrategy('escape');
+
     // Set the lang either to FR or EN according to the browser language
     var lang = (window.navigator.userLanguage || window.navigator.language).toLowerCase();
     if(lang.substr(0, 2) == 'fr') {
