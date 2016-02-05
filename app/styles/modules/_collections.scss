@@ -9,7 +9,6 @@
     &:hover{
       .collection-item{
         .collection-gradient{
-          opacity:1;
           background: linear-gradient(to top,
             rgba(30, 36, 42, 0.65) 100%,
             rgba(0,0,0,0.5) 0%,
@@ -42,7 +41,6 @@
         right:0;
         bottom:0;
         height:100%;
-        opacity:0;
         -webkit-transition: .2s ease-in-out;
         transition: .2s ease-in-out;
 
@@ -50,6 +48,25 @@
           rgba(0,0,0,0.5) 0%,
           rgba(0,0,0,0) 50%,
           rgba(24,24,24,0.15) 100%); /* w3c */
+      }
+
+      .collection-info{
+        position:absolute;
+        width:100%;
+        bottom:35px;
+        text-align:center;
+        p{
+          line-height:19px;
+          &:first-child{
+            letter-spacing:0.2px;
+            font-size:1.8rem;
+            font-weight:600;
+            margin-bottom:5px;
+          }
+          &:last-child{
+            font-size:1.4rem;
+          }
+        }
       }
 
     }
