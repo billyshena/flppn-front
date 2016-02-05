@@ -4,25 +4,6 @@
   width:100%;
 
 
-  .sub-header{
-    background:#FBFBFB;
-    nav{
-      ul{
-        text-align:center;
-        li{
-          display:inline-block;
-          a{
-
-            display:block;
-            padding:18px 12.5px;
-            color:#AAAAB1;
-            font-size:1.4rem;
-          }
-        }
-      }
-    }
-  }
-
   section.home-container{
 
     height:100%;
@@ -30,7 +11,7 @@
 
     #home-videos{
       width:100%;
-      background:#FBFBFB;
+      background:$background;
 
       .home-videos-container{
         max-width:1035px;
