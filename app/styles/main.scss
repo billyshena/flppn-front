@@ -3,9 +3,12 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 @import "colors";
 @import "fonts";
 @import "animations/animated";
+@import "modules/header";
 @import "modules/landing";
 @import "modules/login";
 @import "modules/home";
+@import "modules/profile";
+@import "modules/collections";
 
 // Using box-sizing by default
 *{
@@ -40,6 +43,11 @@ body{
 #app{
   height:100%;
   width:100%;
+}
+
+ul{
+  margin-bottom:0;
+  padding-left:0;
 }
 
 /* Override Bootstrap UI elements */

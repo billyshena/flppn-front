@@ -1,0 +1,59 @@
+#user-collections{
+
+  padding-top:10px;
+  width:830px;
+  margin: 0 auto;
+
+  .collection-item-container{
+
+    &:hover{
+      .collection-item{
+        .collection-gradient{
+          opacity:1;
+          background: linear-gradient(to top,
+            rgba(30, 36, 42, 0.65) 100%,
+            rgba(0,0,0,0.5) 0%,
+            rgba(0,0,0,0) 50%);
+        }
+      }
+
+
+    }
+
+    float:left;
+    width:33.33333333%;
+    cursor:pointer;
+
+    .collection-item{
+
+      margin:10px;
+      height:307px;
+      background-size:cover;
+      background-position:50% 50%;
+      position:relative;
+      background-image: url('../../images/profile/ass.jpg');
+      border-radius:2px;
+      box-shadow:0px 1px 3px 0px rgba(0, 0, 0, 0.05), 0px 1px 2px 0px rgba(0, 0, 0, 0.1);
+
+      .collection-gradient{
+        position:relative;
+        top:0;
+        left:0;
+        right:0;
+        bottom:0;
+        height:100%;
+        opacity:0;
+        -webkit-transition: .2s ease-in-out;
+        transition: .2s ease-in-out;
+
+        background: linear-gradient(to top,
+          rgba(0,0,0,0.5) 0%,
+          rgba(0,0,0,0) 50%,
+          rgba(24,24,24,0.15) 100%); /* w3c */
+      }
+
+    }
+  }
+
+
+}

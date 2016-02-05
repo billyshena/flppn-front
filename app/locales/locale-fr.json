@@ -17,6 +17,11 @@
     "recent": "Recent",
     "mostRated": "Most rated",
     "trend": "Trend"
+  },
+
+  "profile": {
+    "collections": "Collections",
+    "videos": "Videos"
   }
 
 

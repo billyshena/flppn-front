@@ -1,0 +1,32 @@
+<div id="profile">
+
+  <section class="profile-header text-center">
+    <div class="profile-user">
+      <img src="images/home/default-avatar.png" alt="User avatar" width="70px" height="70px"/>
+      <p class="text-center">valentinchrt</p>
+    </div>
+  </section>
+
+  <section class="profile-menu text-center">
+    <nav>
+      <ul>
+        <li ui-sref-active="active" data-ui-sref="profile.collections">
+          <a href="javascript:;">
+            <p>11</p>
+            <p>{{ 'profile.collections' | translate }}</p>
+          </a>
+        </li>
+        <li ui-sref-active="active" data-ui-sref="profile.videos">
+          <a href="javascript:;">
+            <p>90</p>
+            <p>{{ 'profile.videos' | translate }}</p>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </section>
+
+
+  <div ui-view="" class="profile-container animated fadeIn"></div>
+
+</div>

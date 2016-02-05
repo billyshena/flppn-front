@@ -51,8 +51,37 @@ angular
       })
       .state('home', {
         url: '/home',
-        controller: "HomeCtrl",
-        templateUrl: "/views/home.html"
+        views: {
+          '': {
+            controller: "HomeCtrl",
+            templateUrl: "/views/home.html"
+          },
+          'theHeader@': {
+            templateUrl: '/views/partials/header.html'
+          }
+        }
+      })
+      .state('profile', {
+        url: '/account',
+        views: {
+          '': {
+            controller: "ProfileCtrl",
+            templateUrl: "/views/profile.html"
+          },
+          'theHeader@': {
+            templateUrl: '/views/partials/header.html'
+          }
+        }
+      })
+      .state('profile.collections', {
+        url: '/collections',
+        controller: 'CollectionsCtrl',
+        templateUrl: '/views/collections.html'
+      })
+      .state('profile.videos', {
+        url: '/videos',
+        controller: 'VideoCtrl',
+        templateUrl: '/views/videos.html'
       });
 
   });

@@ -1,0 +1,79 @@
+$header-element-height:100%;
+header.home-header{
+  height:74px;
+  background:white;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.10);
+  padding:0px 40px;
+  width:100%;
+
+  .home-header-container{
+    height:100%;
+    padding:16px 0px;
+  }
+
+  section.home-container{
+    position:relative;
+  }
+  .user-profile{
+    height:$header-element-height;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,fcfcfc+100 */
+    background: #ffffff; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ffffff 0%, #fcfcfc 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #ffffff 0%,#fcfcfc 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #ffffff 0%,#fcfcfc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#fcfcfc',GradientType=0 ); /* IE6-9 */
+    border-radius:5px;
+    border:1px solid #ededed;
+    position:relative;
+
+    a{
+      display:block;
+      padding:8px 25px;
+
+      span{
+        color:#AAAAB1;
+        margin-left:15px;
+      }
+    }
+
+  }
+  .search-container{
+    height:100%;
+    margin:0 auto;
+    width: 50%;
+    position:relative;
+
+    .search-bar{
+      height:$header-element-height;
+      position: absolute;
+      top: 50%; left: 50%;
+      transform: translate(-50%,-50%);
+      width:100%;
+
+      .form-control{
+        height:40px;
+        border-top-left-radius:3px;
+        border-bottom-left-radius:3px;
+        border-color:#ededed;
+        background:#fbfbfb;
+        color:#aaaab1;
+      }
+      .input-group-addon{
+        background:white;
+        padding:6px 30px;
+        border-color:#ededed;
+      }
+    }
+  }
+
+  .home-logo{
+    display:inline-block;
+    height:100%;
+    vertical-align: middle;
+
+    img{
+      vertical-align: middle;
+      height:100%;
+    }
+  }
+}
