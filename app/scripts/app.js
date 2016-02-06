@@ -80,7 +80,7 @@ angular
       })
       .state('profile.videos', {
         url: '/videos',
-        controller: 'VideoCtrl',
+        controller: 'VideosCtrl',
         templateUrl: '/views/videos.html'
       });
 
